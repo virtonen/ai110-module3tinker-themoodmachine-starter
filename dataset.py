@@ -23,6 +23,11 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    # informal / slang
+    "fire",
+    "hyped",
+    "slaps",
+    "proud",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +41,9 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    # informal / slang
+    "bummed",
+    "exhausted",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +58,13 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Lowkey stressed but kind of proud of myself",
+    "Highkey excited about the new project",
+    "Guacamole is made of avocados, cucumbers, and tomatoes",
+    "Learning is fascinating but really tough sometimes",
+    "This government is doing awesome progress",
+    "Nasty accident took place near my home, it was disgusting",
+    "Life is a rollercoaster, sometimes you are up, sometimes you are down"
 ]
 
 # Human labels for each post above.
@@ -65,6 +80,13 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "Lowkey stressed but kind of proud of myself"
+    "positive",  # "Highkey excited about the new project"
+    "neutral",  # "Guacamole is made of avocados, cucumbers, and tomatoes"
+    "mixed",     # "Learning is fascinating but really tough sometimes"
+    "positive",  # "This government is doing awesome progress"
+    "negative",  # "Nasty accident took place near my home, it was disgusting"
+    "mixed",     # "Life is a rollercoaster, sometimes you are up, sometimes you are down"
 ]
 
 # TODO: Add 5-10 more posts and labels.
